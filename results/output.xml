@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.8 on win32)" generated="2024-02-19T19:01:22.932807" rpa="false" schemaversion="5">
+<suite id="s1" name="Treinamento Robot" source="C:\sk-java\git\treinamento_robot">
+<suite id="s1-s1" name="Aula1" source="C:\sk-java\git\treinamento_robot\Aula1">
+<suite id="s1-s1-s1" name="Exercicio Lista 1" source="C:\sk-java\git\treinamento_robot\Aula1\exercicio_lista_1.robot">
+<test id="s1-s1-s1-t1" name="Imprimir Frutas no Console" line="5">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>----------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-19T19:01:23.038174" elapsed="24.941588"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${fruta}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-19T19:01:49.748677" elapsed="4.099170"/>
+</kw>
+<var name="${fruta}">Banana</var>
+<status status="PASS" start="2024-02-19T19:01:48.538003" elapsed="5.309844"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${fruta}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-19T19:01:54.396813" elapsed="0.477896"/>
+</kw>
+<var name="${fruta}">Maçã</var>
+<status status="PASS" start="2024-02-19T19:01:53.847847" elapsed="1.027737"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${fruta}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-19T19:01:55.227731" elapsed="0.252299"/>
+</kw>
+<var name="${fruta}">Laranja</var>
+<status status="PASS" start="2024-02-19T19:01:54.875584" elapsed="0.605447"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${fruta}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-19T19:01:55.825823" elapsed="1.173672"/>
+</kw>
+<var name="${fruta}">Morango</var>
+<status status="PASS" start="2024-02-19T19:01:55.482042" elapsed="1.518542"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${fruta}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-19T19:02:02.749179" elapsed="2.348717"/>
+</kw>
+<var name="${fruta}">Abacaxi</var>
+<status status="PASS" start="2024-02-19T19:01:57.002002" elapsed="8.096911"/>
+</iter>
+<var>${fruta}</var>
+<value>@{frutas}</value>
+<status status="PASS" start="2024-02-19T19:01:47.981766" elapsed="17.117147"/>
+</for>
+<status status="PASS" start="2024-02-19T19:01:23.034760" elapsed="42.066607"/>
+</test>
+<status status="PASS" start="2024-02-19T19:01:23.029500" elapsed="42.075898"/>
+</suite>
+<status status="PASS" start="2024-02-19T19:01:23.016710" elapsed="42.106783"/>
+</suite>
+<status status="PASS" start="2024-02-19T19:01:22.943145" elapsed="42.189894"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Treinamento Robot">Treinamento Robot</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Aula1">Treinamento Robot.Aula1</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Exercicio Lista 1">Treinamento Robot.Aula1.Exercicio Lista 1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
