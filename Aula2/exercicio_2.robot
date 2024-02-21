@@ -22,3 +22,19 @@ Imprimir Nomes de Paises
 *** Test Cases ***
 Imprimir lista de paises
     Imprimir Nomes de Paises    
+
+
+*** Keywords ***
+Imprimir lista de paises com while
+    @{paises}            Create List    Brasil    Estados Unidos    França    Alemanha    Japão
+    ${index}             Set Variable    ${0}
+    ${total_paises}      Get Length     ${paises}
+    Log To Console    \n--------------
+    WHILE    ${index} < ${total_paises}
+        Log To Console    ${paises[${index}]}
+        ${index}    Set Variable    ${index + 1}
+    END
+
+*** Test Cases ***
+Testando imprimir com While
+    Imprimir lista de paises com while
